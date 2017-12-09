@@ -4,13 +4,13 @@ import { Provider } from 'react-redux';
 
 import store from './store';
 
-import App from './components/App';
+import Main from './containers/Main';
 
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
   <Provider store={store}>
-    <App />
+    <Main />
   </Provider>,
   document.getElementById('root')
 );
